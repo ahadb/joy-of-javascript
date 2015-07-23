@@ -1,1 +1,1 @@
-# joy-of-javascript
+# Joy of JavaScript
