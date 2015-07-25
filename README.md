@@ -5,7 +5,12 @@ This premise of this repository is simply for people who are looking for a good 
 # Table of Contents
 
 * Learn JavaScript
-* 
+* Test Driven JavaScript (TDD)
+* AngularJS
+* ReactJS
+* Micro Libraries
+* Resources
+* Links
 
 ## Learn JavaScript
 
