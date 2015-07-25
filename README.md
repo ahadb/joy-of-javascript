@@ -25,7 +25,7 @@ The most common types of variables in JavaScript are:
 * undefined: when you use an object property that does not exist, or a variable that has been declared, nor assigned a value
 * null: a variable that contains no valid data type
 
-##### Comments
+#### Comments
 
 Comments help the developer to explain JavaScript code, make it more readable or to prevent execution.
 JavaScript supports two types of comments:
