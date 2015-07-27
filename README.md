@@ -52,5 +52,22 @@ be ignored by the interpreter
 var foo = function (num) {...};
 ```
 
+#### Equality
 
+Checking for equality as very common for JavaScript programmers, matter of fact all programmers rely heavily on equality checks throughout their code. For newbies, it's important to remember that `=` is an assignment operator and doesn't perform equality checking. 
+ 
+ The basic equality operator is == and determines if two variables are equal. That has it's caveats as it doesn't determine if they are the same type of variable. Let's take the following variable definitions:
+ 
+ ```javascript
+ var foo = 11;
+ var bar = 11;
+ var quz = "11";
+ var norf = "javascript";
+```
+
+Give the above code some thought. Quite obviously `foo == bar` will evaluate to `true` and `foo == norf` will evaluate to `false`. However `bar == qux` will also evaluate to true (notice they are different types). The `==` operator forces it's operands to the same type. 
+ 
+ There is another operator called the `===` operator which determines that two variables are equal only if they are of the smae type and value. So, in the above code `foo == bar` evaluates to true, but now `bar === qux` will evaluate to false.
+
+#### Console
 
