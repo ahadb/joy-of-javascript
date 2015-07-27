@@ -6,11 +6,12 @@ This premise of this repository is simply for people who are looking for a good 
 
 * Learn JavaScript
 * Test Driven JavaScript (TDD)
+* Design Patterns
 * AngularJS
 * ReactJS
 * Micro Libraries
-* Resources
-* Links
+* Other Resources
+* Signal 
 
 ## Learn JavaScript
 
@@ -56,7 +57,7 @@ var foo = function (num) {...};
 
 Checking for equality as very common for JavaScript programmers, matter of fact all programmers rely heavily on equality checks throughout their code. For newbies, it's important to remember that `=` is an assignment operator and doesn't perform equality checking. 
  
- The basic equality operator is == and determines if two variables are equal. That has it's caveats as it doesn't determine if they are the same type of variable. Let's take the following variable definitions:
+ The basic equality operator is `==` and determines if two variables are equal. That has it's caveats as it doesn't determine if they are the same type of variable. Let's take the following variable definitions:
  
  ```javascript
  var foo = 11;
@@ -69,5 +70,10 @@ Give the above code some thought. Quite obviously `foo == bar` will evaluate to 
  
  There is another operator called the `===` operator which determines that two variables are equal only if they are of the smae type and value. So, in the above code `foo == bar` evaluates to true, but now `bar === qux` will evaluate to false.
 
-#### Console
+#### Console & Developer Tools
 
+One of the best parts about JavaScript is that unlike other programming languages, with minimal effort an individual can start making things happen. In other words you can start seeing your code work with minimal effort within a browser environment. 
+
+In my opinion as a budding developer having a fundamental understanding of the console using Developer Tools in your browser will help you tinker around with the language. Every browser has some form of developer tools pre-packaged, and one of the first-born versions of this tool was Firebug which integrated with Mozilla.
+ 
+ In Chrome you can right click on a page to `inspect element', or use the hamburger menu and navigate to tools > developer tools or simply press <kbd>F12</kbd> in Windows or <kdb>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>I</kbd> on the Mac.
