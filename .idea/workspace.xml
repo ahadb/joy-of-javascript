@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="769941f8-bc15-44ca-951d-75cb1a4bb165" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="joy-of-javascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14736842">
-              <caret line="89" column="122" selection-start-line="89" selection-start-column="122" selection-end-line="89" selection-end-column="122" />
+            <state vertical-scroll-proportion="0.9052632">
+              <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -208,8 +207,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14736842">
-          <caret line="89" column="122" selection-start-line="89" selection-start-column="122" selection-end-line="89" selection-end-column="122" />
+        <state vertical-scroll-proportion="0.9052632">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
           <folding />
         </state>
       </provider>

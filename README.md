@@ -106,4 +106,10 @@ describe('Arrays', function () {
 
 Get used to writing unit tests for your code - not only will it help you become a better developer but it will increase your chances of finding your dream where the compensation is over $100k. I suggest you look at some of the most common testing libraries and frameworks out there:
 
-
+* Protractor or Karma
+** Protractor is a JavaScript test-runner built with Node.js and meant for unit testing
+** Protractor is for end to end testing, and uses Selenium Web Drive to drive tests
+* TestSwarm
+* QUnit
+* Jasmine
+* Mocha 
