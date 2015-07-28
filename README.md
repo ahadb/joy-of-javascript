@@ -1,12 +1,14 @@
 # The Joy of JavaScript
 
-This premise of this repository is simply for people who are looking for a good resource about everything JavaScript. It's in the beginning stages at this point, but with alot of work and hand-holding should emerge a great reference for people to learn about and be inspired about the language of JavaScript.
+This premise of this repository is simply for people who are looking for a good resource about everything JavaScript. It's in the beginning stages at this point, but with alot of work it should emerge as a great reference for people to learn about and be inspired about the language of JavaScript. There will also be a useful section where we can learn by example, which is the best way to actually learn a new language (depending on your learning style).
 
 # Table of Contents
 
 * Learn JavaScript
 * Test Driven JavaScript (TDD)
 * Design Patterns
+* Modern JS Tooling
+* Learning By Example
 * AngularJS
 * ReactJS
 * Micro Libraries
@@ -77,3 +79,10 @@ One of the best parts about JavaScript is that unlike other programming language
 In my opinion as a budding developer having a fundamental understanding of the console using Developer Tools in your browser will help you tinker around with the language. Every browser has some form of developer tools pre-packaged, and one of the first-born versions of this tool was Firebug which integrated with Mozilla.
  
  In Chrome you can right click on a page to `inspect element', or use the hamburger menu and navigate to tools > developer tools or simply press <kbd>F12</kbd> in Windows or <kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>I</kbd> on the Mac.
+
+
+## Test Driven JavaScript
+
+As developers we want to be able to feel confident our code won't break in different browsers and in different environments - all to often do we overlook testing by guessing at what code is required - a strategy that can easily lead to bloated and tightly coupled situations. Each line of code is tested by a representative sample code and therefore TDD will produce less buggy code and more robust functionality. 
+
+As a novice developer, not only should you be focusing on learning core aspects of the JavaScript language but also unit testing in your iterative development process.
