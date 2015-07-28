@@ -1,6 +1,6 @@
 # The Joy of JavaScript
 
-This premise of this repository is simply for people who are looking for a good resource about everything JavaScript. It's in the beginning stages at this point, but with alot of work it should emerge as a great reference for people to learn about and be inspired about the language of JavaScript. There will also be a useful section where we can learn by example, which is the best way to actually learn a new language (depending on your learning style).
+This premise of this repository is simply for people who are looking for a good resource to get up to speed quickly with modern day JavaScript. It's in the beginning stages at this point, but with alot of work it should emerge as a great reference for people to learn and be inspired. There will also be a useful section where we can learn by example, which is the best way to actually learn a new language (depending on your learning style) as well as a signal section where you can keep up-to-date with the language from the vibrant community.
 
 # Table of Contents
 
@@ -8,11 +8,13 @@ This premise of this repository is simply for people who are looking for a good 
 * Test Driven JavaScript (TDD)
 * Design Patterns
 * Modern JS Tooling
+* NodeJS
 * Learning By Example
 * AngularJS
 * ReactJS
 * Micro Libraries
 * Other Resources
+* ES6
 * Signal 
 
 ## Learn JavaScript
