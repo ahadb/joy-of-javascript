@@ -86,3 +86,24 @@ In my opinion as a budding developer having a fundamental understanding of the c
 As developers we want to be able to feel confident our code won't break in different browsers and in different environments - all to often do we overlook testing by guessing at what code is required - a strategy that can easily lead to bloated and tightly coupled situations. Each line of code is tested by a representative sample code and therefore TDD will produce less buggy code and more robust functionality. 
 
 As a novice developer, not only should you be focusing on learning core aspects of the JavaScript language but also unit testing in your iterative development process.
+
+Note: Complete TDD and just writing unit tests are different, there are options if you want to remain fully TDD compliant.
+
+Look at the example below:
+
+```javascript
+describe('Arrays', function () {
+
+  /*Arrays*/
+  /* An array is a data structure with automatically indexed positions*/
+  it('Arrays can be accessed by indices', function () {
+    //The brackets indicate to the compiler to make an array and to fill it with the comma-separated values between the brackets
+    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
+    expect(arrayOfStrings[1]).toBe("StringOne"); //We can access any location of the zero-based array
+  });
+});
+```
+
+Get used to writing unit tests for your code - not only will it help you become a better developer but it will increase your chances of finding your dream where the compensation is over $100k. I suggest you look at some of the most common testing libraries and frameworks out there:
+
+
