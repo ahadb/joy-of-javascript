@@ -50,7 +50,7 @@ var b = 32.1
 
 Multiline:
  
-``` javascript 
+```javascript 
 /* this is a multiline comment and will
 be ignored by the interpreter
 */
@@ -94,15 +94,42 @@ Note: Complete TDD and just writing unit tests are different, there are options 
 Look at the example below:
 
 ```javascript
-describe('Arrays', function () {
+'use strict';
 
-  /*Arrays*/
-  /* An array is a data structure with automatically indexed positions*/
-  it('Arrays can be accessed by indices', function () {
-    //The brackets indicate to the compiler to make an array and to fill it with the comma-separated values between the brackets
-    var arrayOfStrings = [ "StringZero" , "StringOne" , "StringTwo"];
-    expect(arrayOfStrings[1]).toBe("StringOne"); //We can access any location of the zero-based array
-  });
+// simple test suite for strings using Jasmine
+// just making sure describe, it and spec are working....
+describe("A suite is just a function", function() {
+    var a;
+    it("and so is a spec", function() {
+        a = true;
+        expect(a).toBe(true);
+    });
+});
+// they work!
+
+// simple tests for strings
+describe('Strings', function() {
+    it("You can create a string by surrounding text with quotes", function () {
+        expect("First" + "Second").toEqual("FirstSecond");
+    });
+    it("Concatenation works with numbers", function() {
+        expect("52" + "String").toEqual("52String");
+    });
+    it('Concatenation evaluates expressions', function () {
+        expect("Multiply 8*2 =" + 8 * 2).toEqual("Multiply 8*2 =16");
+    });
+    it('You can escape quotation marks with backslash', function () {
+        expect("Escape\"Quotes\"").toEqual("Escape" + '"' + "Quotes" + '"');
+    });
+    it('Double equals will compare exact contents', function () {
+        expect("String" == "String").toBe(true);
+    });
+    it('Double equals on strings is case sensitive', function () {
+        expect("String" == "string").toBe(false);
+    });
+    it('Length of strings can be accessed with the .length property', function () {
+        expect("ThisStringIsVeryLong".length).toBe(20);
+    });
 });
 ```
 
