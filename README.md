@@ -11,8 +11,8 @@ This premise of this repository is simply for people who are looking for a good 
 * NodeJS
 * Learning By Example
 * AngularJS
-* ReactJS
-* Micro Libraries
+* ReactJS<br />
+* <strike>Micro Libraries</strike>
 * Other Resources
 * ES6
 * Signal 
@@ -142,3 +142,19 @@ Get used to writing unit tests for your code - not only will it help you become 
 * QUnit
 * Jasmine
 * Mocha 
+
+## Design Patterns
+
+## Modern JS Tooling
+
+## NodeJS
+
+## AngularJS & Single Page Applications
+
+## ReactJS
+
+## Other Resources
+ 
+## ES6
+
+## Signal
