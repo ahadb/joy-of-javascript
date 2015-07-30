@@ -1,6 +1,8 @@
 # The Joy of JavaScript
 
-This premise of this repository is simply for people who are looking for a good resource to get up to speed quickly with modern day JavaScript. It's in the beginning stages at this point, but with alot of work it should emerge as a great reference for people to learn and be inspired. There will also be a useful section where we can learn by example, which is the best way to actually learn a new language (depending on your learning style) as well as a signal section where you can keep up-to-date with the language from the vibrant community.
+This premise of this repository is simply for budding developers who are looking for a good resource to get up to speed *quickly with modern day JavaScript and have a working knowledge of market and industry standards. It's in the beginning stages at this point, but with alot of work it should emerge as a great reference for people to learn and be inspired by. There will also be a useful section where we can learn by example, which is the best way to actually learn a new language (depending on your learning style) as well as a signal section where you can keep up-to-date with the language from the vibrant community.
+
+Best part is that this side project will keep on growing as the language evolves and programmers from all walks start taking JavaScript more seriously. For the newbie this is a great language to start learning how to program as your can start doing cool stuff relatively quickly as your work unfolds in front of your eyes.
 
 # Table of Contents
 
@@ -150,6 +152,15 @@ Get used to writing unit tests for your code - not only will it help you become 
 ## NodeJS
 
 ## AngularJS & Single Page Applications
+
+Single page applications have gained in popularity to the extent that they rule the web development world to date - everyone is talking about their fluid experience especially when navigating from page to page, scrolling on history, cacheable screens and a rapid fire back button. Unlike MPW's (multi page websites) SPA's are based on MVC, MVVM, XHR, and DOM manipulation. The most distinct feature besides two-way binding, dependency injection, templating, etc is routing as it's handled by the client-side application using JavaScript and not the server. Simply put, it means that the application handles browsing instead of the browser.
+
+The first framework that is listed here is Angular, and if you haven't tried it you're missing out. Angular is what HTML should have been if it were designed to develop apps with. It's a JavaScript MVC framework developed by Google that let's you build well structured, easily testable and maintainable front-end applications. It also implements two way data binding while connecting your views directly to your model without much fuss. What that means is any change in your view will be immediately reflected in your model; very powerful, yes indeed.
+
+Most importantly Angular is flexible with server communication and let's you work with any server side technology if you server your app through a RESTful web API. There is certainly alot more to learn about Angular, we'll get into some code in this repo and explain the basics - I hope that will want you to learn more about this superheroic framework.
+
+A good start is to go straight to the source and start [reading the docs](https://angularjs.org/) on the Angular website. Whilst you're at it, it won't hurt to look at the newer version of Angular that will be released soon.
+
 
 ## ReactJS
 
