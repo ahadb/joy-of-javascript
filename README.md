@@ -1,8 +1,12 @@
 # The Joy of JavaScript
 
-This premise of this repository is simply for budding developers who are looking for a good resource to get up to speed *quickly with modern day JavaScript and have a working knowledge of market and industry standards. It's in the beginning stages at this point, but with alot of work it should emerge as a great reference for people to learn and be inspired by. There will also be a useful section where we can learn by example, which is the best way to actually learn a new language (depending on your learning style) as well as a signal section where you can keep up-to-date with the language from the vibrant community.
+This premise of this repository is simply for budding developers who are looking for "an easy to digest" way to learn modern day JavaScript and have a solid working knowledge of market and industry standards. It's in the beginning stages at this point, but with alot of work it should emerge as a reference with byte-sized easy to swallow and digest information. 
 
-Best part is that this side project will keep on growing as the language evolves and programmers from all walks start taking JavaScript more seriously. For the newbie this is a great language to start learning how to program as your can start doing cool stuff relatively quickly as your work unfolds in front of your eyes.
+I loathe monolithic learning mechanisms and that was the inspiration and vision behind creating this repository. I opine that it's easier to retain information in simple and clear doses. As you're starting out, don't be too hard on yourself (others might oppose your style of learning, don't listen to them) and learn incrementally.
+
+There will also be a useful section where we can learn by example, which is the best way to actually learn a new language as well as a signal section where you can keep up-to-date with the language from the vibrant community.
+
+Best part is that this side project will keep on growing as the language evolves and programmers from all walks start taking JavaScript more seriously. For the newbie this is a great language to start learning how to program as your can start doing cool stuff relatively quickly as the fruits of your labor unfolds in front of your eyes.
 
 # Table of Contents
 
@@ -147,6 +151,28 @@ Get used to writing unit tests for your code - not only will it help you become 
 
 ## Design Patterns
 
+You will find patterns in everyday things, occurrences and especially in software design and development. With the world of JavaScript evolving at the churn rate that it is today it will prove advantageous for us to take a look at these patterns as they have answered common problems by developers that came well before us.
+
+So the definition of a pattern is a reusable solution that can be applied to commonly occurring problems in software design, and in our case JavaScript web applications. If you're a novice developer thrown into the ocean trying to swim in code you should feel grateful that there are templates that might solve your problems even though they are not the exact solution you are looking for.
+
+Let's have a look at some design patterns:
+
+* Singleton Pattern
+* Mixin Pattern
+* Decorator Pattern
+* Flyweight Pattern
+* Constructor Pattern
+* Module Pattern
+* Revealing Module Pattern
+* Observer Pattern
+* Mediator Pattern
+* Prototype Pattern
+* Command Pattern
+* Facade Pattern
+* Factory Pattern
+
+Of course there are other patterns like jQuery patterns, general patterns, object creation patterns code reuse, DOM and browser patterns
+
 ## Modern JS Tooling
 
 ## NodeJS
@@ -159,7 +185,7 @@ The first framework that is listed here is Angular, and if you haven't tried it 
 
 Most importantly Angular is flexible with server communication and let's you work with any server side technology if you server your app through a RESTful web API. There is certainly alot more to learn about Angular, we'll get into some code in this repo and explain the basics - I hope that will want you to learn more about this superheroic framework.
 
-A good start is to go straight to the source and start [reading the docs](https://angularjs.org/) on the Angular website. Whilst you're at it, it won't hurt to look at the newer version of Angular that will be released soon.
+A good start is to go straight to the source and start [reading the docs](https://angularjs.org/) on the Angular website. Whilst you're at it, it won't hurt to look at the newer version of Angular that will be released soon. Keep in mind that Angular JS tutorials can be quite difficult to follow for people with no previous MVC/TDD experience and especially if you have no JavaScript experience whatsoever. My personal opinion is to learn the basics of the framework by working incrementally and then you can apply more advanced techniques and form your development style. 
 
 
 ## ReactJS
