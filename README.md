@@ -149,6 +149,8 @@ Get used to writing unit tests for your code - not only will it help you become 
 * Jasmine
 * Mocha 
 
+&rarr; View More Tests
+
 ## Design Patterns
 
 You will find patterns in everyday things, occurrences and especially in software design and development. With the world of JavaScript evolving at the churn rate that it is today it will prove advantageous for us to take a look at these patterns as they have answered common problems by developers that came well before us.
@@ -171,7 +173,9 @@ Let's have a look at some design patterns:
 * Facade Pattern
 * Factory Pattern
 
-Of course there are other patterns like jQuery patterns, general patterns, object creation patterns code reuse, DOM and browser patterns
+Of course there are other patterns like jQuery patterns, general patterns, object creation patterns code reuse, DOM and browser patterns.
+
+&rarr; View Design Patterns
 
 ## Modern JS Tooling
 
@@ -187,6 +191,7 @@ Most importantly Angular is flexible with server communication and let's you wor
 
 A good start is to go straight to the source and start [reading the docs](https://angularjs.org/) on the Angular website. Whilst you're at it, it won't hurt to look at the newer version of Angular that will be released soon. Keep in mind that Angular JS tutorials can be quite difficult to follow for people with no previous MVC/TDD experience and especially if you have no JavaScript experience whatsoever. My personal opinion is to learn the basics of the framework by working incrementally and then you can apply more advanced techniques and form your development style. 
 
+&rarr; View Introductory Examples
 
 ## ReactJS
 
