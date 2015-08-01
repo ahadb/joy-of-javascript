@@ -191,7 +191,7 @@ Most importantly Angular is flexible with server communication and let's you wor
 
 A good start is to go straight to the source and start [reading the docs](https://angularjs.org/) on the Angular website. Whilst you're at it, it won't hurt to look at the newer version of Angular that will be released soon. Keep in mind that Angular JS tutorials can be quite difficult to follow for people with no previous MVC/TDD experience and especially if you have no JavaScript experience whatsoever. My personal opinion is to learn the basics of the framework by working incrementally and then you can apply more advanced techniques and form your development style. 
 
-&rarr; View Introductory Examples
+&rarr; View Learning Examples
 
 ## ReactJS
 
