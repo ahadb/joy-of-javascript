@@ -97,7 +97,9 @@ Give the above code some thought. Quite obviously `foo == bar` will evaluate to 
  
 #### Numbers & Strings
  
-Both numbers and strings are very common data types, therefore the introduction and grouping together. A number can be created from a constant value and is prepended with the keyword <code>var</code>:
+Both numbers and strings are very common data types, therefore the introduction and grouping together. 
+
+A number can be created from a constant value and is prepended with the keyword <code>var</code>:
 
 ```javascript
 // an example of an integer
@@ -110,11 +112,11 @@ var y = 1.9
 With numbers the basic mathematic operations can be done using basic operators:
 
 
-* Addition: <code>d = a + b + c</code> 
-* Subtraction: <code>d = a - b - c</code>
-* Multiplication: <code>d = c * b * a</code>
-* Division: <code>c = a / b</code>
-* Using Parens: <code>d = (a + b) * c</code>
+1. Addition: <code>d = a + b + c</code> 
+2. Subtraction: <code>d = a - b - c</code>
+3. Multiplication: <code>d = c * b * a</code>
+4. Division: <code>c = a / b</code>
+5. Using Parens: <code>d = (a + b) * c</code> // this is allowed just like in math
 
 More advanced operations can be used using the following operators:
 
@@ -130,7 +132,52 @@ More advanced operations can be used using the following operators:
 NaN % 2 // NaN
 ```
 
+Similarily a string is also declared using the <code>var</code> keyword. A string represents text and data and is very similar to string implementations from different other languages. An example of a string is: "Hello World, This is JavaScript"
 
+A string is defined using single or double quotes:
+
+```javascript
+// Double quotes example
+var str = "I am a string";
+
+// Single quotes example
+var str = 'I am a string too';
+
+// strings support UTF-8 characters
+
+```
+
+A very useful property of a string is the ability to calculate it's length using <code>.length</code>
+
+```javascript
+// Using the length property
+var str = "I am a string";
+var str_length = str.length;
+console.log(str_length);
+
+// Or simply just
+var str = "I am a string".length;
+```
+
+Lastly, it's important to be able to concatenate two strings together. This means that we add two or more strings together.
+
+```javascript
+var firstName = "Jane";
+var lastName = "Dough";
+var fullName = "Jane" + " Dough"
+var sentence = "My name is: " + "Jane" + " Dough" + ".";
+```
+
+Notice the whitespace in the string "My name is: " and " Dough". You can also use variables to create the same
+ 
+```javascript
+var firstName = "Jane";
+var lastName = "Dough";
+var fullName = "Jane" + " Dough"
+var sentence = "My name is: " + firstName + lastName + ".";
+```
+
+Now you're programming! :-)
 
 #### Console & Developer Tools
 
@@ -139,6 +186,20 @@ One of the best parts about JavaScript is that unlike other programming language
 In my opinion as a budding developer having a fundamental understanding of the console using Developer Tools in your browser will help you tinker around with the language. Every browser has some form of developer tools pre-packaged, and one of the first-born versions of this tool was Firebug which integrated with Mozilla.
  
  In Chrome you can right click on a page to `inspect element', or use the hamburger menu and navigate to tools > developer tools or simply press <kbd>F12</kbd> in Windows or <kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>I</kbd> on the Mac.
+ 
+ As a beginner and to become a decent developer you need to know the console, I recommend starting to hack away at it to get further acquainted. Note that you will have to know how to debug JavaScript applications using developer tools; it's crucial to be able to use this tool and use it well for debugging purposes.
+ 
+ ```javascript
+console.log("Hello World");
+$('a'); // even if you're not using jQuery you can pass any css selector to $.
+$('a').length;
+document.body.contentEditable = true; // now edit anything on your page
+getEventListeners($('#clickFn"));
+monitorEvents($('#myInput'), ['click', 'keyup', 'focus']); // this will log all click, keyup and focus event fired
+console.table();
+dir($('#clickFn); // then expand and see all the properties
+```
+You can also use <code>console.log</code> and <code>debugger<code> statements for debugging your own code.
 
 
 ## Test Driven JavaScript
