@@ -201,7 +201,7 @@ monitorEvents($('#myInput'), ['click', 'keyup', 'focus']); // this will log all 
 console.table();
 dir($('#clickFn); // then expand and see all the properties
 ```
-You can also use <code>console.log</code> and <code>debugger<code> statements for debugging your own code.
+You can also use <code>console.log</code> and <code>debugger</code> statements for debugging your own code.
 
 
 ## Test Driven JavaScript
