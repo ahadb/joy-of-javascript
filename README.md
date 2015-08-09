@@ -41,6 +41,21 @@ The most common types of variables in JavaScript are:
 * undefined: when you use an object property that does not exist, or a variable that has been declared, nor assigned a value
 * null: a variable that contains no valid data type
 
+In JavaScript, it is possible to declare multiple variables, like this:
+
+```javascript
+var foo = "Hello World";
+var bar = "A string...";
+var qux = 20;
+
+// ...or like this
+var foo = "Hello World",
+    bar = "A string...",
+    qux = 20;
+```
+
+The first way is easier to maintain as each declaration is a single statement on a single line.
+
 #### Comments
 
 Comments help the developer to explain JavaScript code, make it more readable or to prevent execution.
@@ -79,6 +94,32 @@ Checking for equality as very common for JavaScript programmers, matter of fact 
 Give the above code some thought. Quite obviously `foo == bar` will evaluate to `true` and `foo == norf` will evaluate to `false`. However `bar == qux` will also evaluate to true (notice they are different types). The `==` operator forces it's operands to the same type. 
  
  There is another operator called the `===` operator which determines that two variables are equal only if they are of the smae type and value. So, in the above code `foo == bar` evaluates to true, but now `bar === qux` will evaluate to false.
+ 
+#### Numbers & Strings
+ 
+Both numbers and strings are very common data types, therefore the introduction and grouping together. A number can be created from a constant value and is prepended with the keyword <code>var</code>:
+
+```javascript
+// an example of an integer
+var x = 12;
+
+// an example of a float
+var y = 1.9
+```
+
+With numbers the basic mathematic operations can be done using basic operators:
+
+```javascript
+* Addition: <code>d = a + b + c</code> 
+* Subtraction: <code>d = a - b - c</code>
+* Multiplication: <code>d = c * b * a</code>
+* Division: <code>c = a / b</code>
+* Using Parens: <code>d = (a + b) * c</code>
+```
+
+
+
+
 
 #### Console & Developer Tools
 
