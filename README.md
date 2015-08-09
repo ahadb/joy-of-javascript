@@ -1,6 +1,6 @@
 # The Joy of JavaScript
 
-This premise of this repository is simply for budding developers who are looking for "an easy to digest" way to learn modern day JavaScript and have a solid working knowledge of market and industry standards. It's in the beginning stages at this point, but with alot of work it should emerge as a reference with byte-sized easy to swallow and digest information. 
+This premise of this repository is simply for budding developers who are looking for "an easy to digest" way to learn modern day JavaScript and have a solid working knowledge of market & industry standards. It's in the beginning stages at this point, but with alot of work it should emerge as a reference with byte-sized easy to swallow and digest information. 
 
 I loathe monolithic learning mechanisms and that was the inspiration and vision behind creating this repository. I opine that it's easier to retain information in simple and clear doses. As you're starting out, don't be too hard on yourself (others might oppose your style of learning, don't listen to them) and learn incrementally.
 
