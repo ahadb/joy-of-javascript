@@ -109,15 +109,26 @@ var y = 1.9
 
 With numbers the basic mathematic operations can be done using basic operators:
 
-```javascript
+
 * Addition: <code>d = a + b + c</code> 
 * Subtraction: <code>d = a - b - c</code>
 * Multiplication: <code>d = c * b * a</code>
 * Division: <code>c = a / b</code>
 * Using Parens: <code>d = (a + b) * c</code>
+
+More advanced operations can be used using the following operators:
+
+* Increment: if we declare <code>z = 10</code>
+** <code>x = z++</code>  
+** <code>x = ++z</code>
+* Decrement: <code>z = 10</code>
+** <code>x = z--</code>
+** <code>x = --z</code>
+* Modulus: This is the remainder operator
+```javascript
+15 % 6 // 2
+NaN % 2 // NaN
 ```
-
-
 
 
 
