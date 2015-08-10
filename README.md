@@ -189,11 +189,38 @@ Arrays are one of the data types that you will use quite often, so understand it
 // define and empty array
 var my_arr = [];
 
-// an array of cities (strings)
+// an array of strings
 var cities = ["Washington DC", "Moscow", "London", "New York City", "New Dehli"];
  
 // an array of numbers
 var numbers = [10, 9, 8, 7, 6, 5, 0]
+```
+
+You might be asking yourself, so what can I do with these elements and how do I access them. An array starts of with an <code>index</code> or indices and points to a particular position in an array. It's important to note that Indices progress one by one and the first index in an array is 0 and not 1.
+
+Let's try out a practical example:
+
+```javascript
+var dt = ["Numbers", "Strings", "Arrays", "Null", "Undefined", "Boolean", "Object"];
+
+// find the first element in or array
+dt[0];
+
+// declare variables that holds a reference to a position in our array of elements
+var str = dt[1];
+var arr = dt[2];
+var null = dt[3];
+var obj = dt[6];
+
+// you can also use the <code>length</code> prop to find the last el of an array
+var lastEl = dt.length - 1;
+```
+
+An important property of an array is the <code>length</code> property:
+
+```javascript
+var myArr = [1, 2, 3, 4, 5];
+var len = myArr.length; // 5
 ```
 
 #### Console & Developer Tools
