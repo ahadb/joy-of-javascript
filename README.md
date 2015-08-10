@@ -99,7 +99,7 @@ Give the above code some thought. Quite obviously `foo == bar` will evaluate to 
  
 #### Numbers & Strings
  
-Both numbers and strings are very common data types, therefore the introduction and grouping together. 
+Both numbers and strings are very common data types, therefore the introduction and grouping together. They are called primitives or primitive data types by definition. 
 
 A number can be created from a constant value and is prepended with the keyword <code>var</code>:
 
@@ -180,6 +180,21 @@ var sentence = "My name is: " + firstName + lastName + ".";
 ```
 
 Now you're programming! :-)
+
+#### Arrays
+
+Arrays are one of the data types that you will use quite often, so understand it well. We a good amount of data in one variable and that in turn allows us to use functions to perform operations on data. Data holds one or more elements and can simply be defined like so:
+
+```javascript
+// define and empty array
+var my_arr = [];
+
+// an array of cities (strings)
+var cities = ["Washington DC", "Moscow", "London", "New York City", "New Dehli"];
+ 
+// an array of numbers
+var numbers = [10, 9, 8, 7, 6, 5, 0]
+```
 
 #### Console & Developer Tools
 
