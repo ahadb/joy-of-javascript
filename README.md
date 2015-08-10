@@ -223,6 +223,10 @@ var myArr = [1, 2, 3, 4, 5];
 var len = myArr.length; // 5
 ```
 
+There is a lot you can do with arrays, and their are several built in methods like empty, clone, join and many more that you can use to perform surgery on arrays.
+
+&rarr; View More on Arrays
+
 #### Console & Developer Tools
 
 One of the best parts about JavaScript is that unlike other programming languages, with minimal effort an individual can start making things happen. In other words you can start seeing your code work with minimal effort within a browser environment. 
