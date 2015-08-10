@@ -16,11 +16,11 @@ Best part is that this side project will keep on growing as the language evolves
 * Test Driven JavaScript (TDD)
 * Design Patterns
 * Modern JS Tooling
+* Micro Libraries
+* Frameworks
 * NodeJS
-* Learning By Example
 * AngularJS
-* ReactJS<br />
-* <strike>Micro Libraries</strike>
+* ReactJS
 * Other Resources
 * ES6
 * Signal 
@@ -226,6 +226,12 @@ var len = myArr.length; // 5
 There is a lot you can do with arrays, and their are several built in methods like empty, clone, join and many more that you can use to perform surgery on arrays.
 
 &rarr; View More on Arrays
+
+#### Program Structure (Conditionals, Loops & Control Flow)
+
+#### Objects
+
+#### Functions
 
 #### Console & Developer Tools
 
