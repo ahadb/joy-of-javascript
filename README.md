@@ -1,6 +1,6 @@
 # The Joy of JavaScript
 
-<i>Just getting started</i>
+<i>Just getting started...</i>
 
 This premise of this repository is simply for budding developers who are looking for "an easy to digest" way to learn modern day JavaScript and have a solid working knowledge of market & industry standards. It's in the beginning stages at this point, but with alot of work it should emerge as a reference with byte-sized easy to swallow and digest information. 
 
