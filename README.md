@@ -229,6 +229,15 @@ There is a lot you can do with arrays, and their are several built in methods li
 
 #### Program Structure (Conditionals, Loops & Control Flow)
 
+All programs have structure and programmers use expressions, statements and conditionals to write abd structure their code. The simplest of expressions can look like 99 or "I am a string" - expressions can also be nested between parenthesis. A statement is basically a program with an expression terminated with a semi-colon. For example the following are all examples of statements:
+ 
+ ```javascript
+ 1;
+ 1 + 1 * (2 +2);
+ !false;
+ 
+ ```
+
 #### Objects
 
 #### Functions
